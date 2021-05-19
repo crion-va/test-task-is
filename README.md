@@ -7,7 +7,7 @@
 * `npm i`
 * `ng serve`
 
-## Запуск тестового сервера
+## Запуск тестового Backend-сервера
 
 * `cd test-server`
 * `npm i`
