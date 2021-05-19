@@ -1,0 +1,27 @@
+{
+  "name": "ztu-server",
+  "version": "1.0.0",
+  "description": "sec tech",
+  "main": "index.js",
+  "engines": {
+    "node": "12.14.1",
+    "npm": "6.14.8"
+  },
+  "scripts": {
+    "start": "node index",
+    "server": "nodemon index"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "MosPoly",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

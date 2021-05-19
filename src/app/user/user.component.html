@@ -1,0 +1,9 @@
+<div class="user" *ngIf="auth.isAuth(); else noauth">
+    <div class="user__img" [ngStyle]="{backgroundImage: 'url(' + user.link + ')'}"></div>
+    <div class="user__name">{{user.name}}</div>
+    <div class="arrow" [@arrow]="state"></div>
+</div>
+
+<ng-template #noauth>
+    <div class="user pointer" (click)="login()">Войти</div>
+</ng-template>
