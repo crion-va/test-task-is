@@ -5,7 +5,7 @@
 ## Запуск проекта
 
 * `npm i`
-* `ng serve`
+* `npm run start`
 
 ## Запуск тестового Backend-сервера
 
